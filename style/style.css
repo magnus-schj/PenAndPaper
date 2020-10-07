@@ -13,8 +13,13 @@ a {
 /* NAV */
 .header {
     background: grey;
+    min-height: 10vh;
 }
 
 .header nav {
     display: flex;
+}
+
+.header li {
+    list-style-type: none;
 }
