@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #51e3d4;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -29,7 +34,8 @@ h2 {
     top: 0;
     background: grey;
     min-height: 10vh;
-    background: #51e3d4;
+    /* background: #51e3d4; */
+    background: #474f85;
 }
 
 .main-head nav {
@@ -49,6 +55,7 @@ h2 {
 
 .main-head li {
     list-style-type: none;
+    font-size: 1.5rem;
 }
 
 /* HERO */
@@ -70,4 +77,10 @@ h2 {
 
 #hero-button {
     margin: 3rem;
+}
+
+/* ABOUT */
+.about {
+    min-height: 100vh;
+
 }
