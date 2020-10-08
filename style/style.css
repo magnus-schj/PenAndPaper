@@ -93,6 +93,27 @@ h2 {
     margin-bottom: 3rem;
 }
 
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text {
+    flex: 1 1 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text li {
+    list-style: none;
+}
+
+.about-image {
+    flex: 1 1 30px;
+}
+
 /* FOOTER */
 footer {
     background: #474f85;
