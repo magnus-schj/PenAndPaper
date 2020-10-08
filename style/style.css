@@ -88,6 +88,11 @@ h2 {
     justify-content: center;
 }
 
+.about h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 /* FOOTER */
 footer {
     background: #474f85;
