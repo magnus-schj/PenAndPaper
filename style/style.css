@@ -147,8 +147,10 @@ footer img {
     width: 5rem;
 }
 
-.about-us {
+#Made-by-us {
     font-weight: bold;
+    text-align: center;
+    width: 100%;
 }
 
 .person-wrapper {
@@ -159,4 +161,8 @@ footer img {
 
 .person-wrapper p {
     margin: 1rem;
+}
+
+.person-wrapper img{
+    margin: 0.5rem;
 }
