@@ -82,5 +82,13 @@ h2 {
 /* ABOUT */
 .about {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
 
+/* FOOTER */
+footer {
+    background: #474f85;
 }
