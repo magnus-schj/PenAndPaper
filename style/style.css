@@ -150,3 +150,9 @@ footer img {
 .about-us {
     font-weight: bold;
 }
+
+.person-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
