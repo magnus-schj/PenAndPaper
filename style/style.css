@@ -111,6 +111,8 @@ h2 {
 .about-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
 }
 
 .about-text {
@@ -118,7 +120,15 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    background: #f3f9fb;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    margin: 3rem;
+}
+
+.about-text h2 {
+    margin: 4rem;
 }
 
 .about-text li {
@@ -132,6 +142,8 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+.about-image
 
 /* FOOTER */
 footer {
