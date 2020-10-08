@@ -27,6 +27,7 @@ h2 {
 /* NAV */
 #logo {
     flex: 1 1 30px;
+    font-size: 2.5rem;
 }
 
 .main-head {
@@ -126,6 +127,10 @@ h2 {
 
 .about-image {
     flex: 1 1 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER */
