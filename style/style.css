@@ -10,16 +10,34 @@ a {
     color: black;
 }
 
+
 /* NAV */
-.header {
+#logo {
+    flex: 1 1 30px;
+}
+
+.main-head {
+    position: sticky;
+    top: 0;
     background: grey;
     min-height: 10vh;
 }
 
-.header nav {
+.main-head nav {
+    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 2rem;
 }
 
-.header li {
+.main-head ul {
+    flex: 1 1 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head li {
     list-style-type: none;
 }
