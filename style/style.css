@@ -77,6 +77,15 @@ h2 {
 
 #hero-button {
     margin: 3rem;
+    border: none;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    background: #474f85;
+    color: white;
+}
+
+#hero-button:hover {
+    cursor: pointer;
 }
 
 /* ABOUT */
