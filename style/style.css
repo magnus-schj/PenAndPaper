@@ -91,6 +91,9 @@ h2 {
 /* FOOTER */
 footer {
     background: #474f85;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 footer img {
