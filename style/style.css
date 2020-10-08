@@ -92,3 +92,7 @@ h2 {
 footer {
     background: #474f85;
 }
+
+footer img {
+    border-radius: 50;
+}
