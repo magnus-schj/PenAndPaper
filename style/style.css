@@ -227,7 +227,7 @@ footer img {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 418px) {
+@media screen and (max-width: 465px) {
     #logo {
         text-align: center;
     }
