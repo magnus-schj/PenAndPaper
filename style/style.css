@@ -63,11 +63,11 @@ h2 {
  width:0;
  height: 2px;
  background:  #51e3d4;;
- transition:width .3s;
+ transition:width .5s;
 }
 .main-head a:hover::after{
     width: 100%;
-    transition:width .3s;
+    transition:width .5s;
 }
 
 /* HERO */
