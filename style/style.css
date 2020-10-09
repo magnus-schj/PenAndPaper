@@ -57,6 +57,18 @@ h2 {
     list-style-type: none;
     font-size: 1.5rem;
 }
+.main-head a::after{
+ content: '';
+ display: block;
+ width:0;
+ height: 2px;
+ background:  #51e3d4;;
+ transition:width .3s;
+}
+.main-head a:hover::after{
+    width: 100%;
+    transition:width .3s;
+}
 
 /* HERO */
 .hero {
