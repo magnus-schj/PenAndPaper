@@ -143,7 +143,6 @@ h2 {
     justify-content: center;
 }
 
-
 /* FOOTER */
 footer {
     background: #474f85;
@@ -158,10 +157,11 @@ footer img {
     width: 5rem;
 }
 
-#Made-by-us {
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .person-wrapper {
