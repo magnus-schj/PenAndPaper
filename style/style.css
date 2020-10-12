@@ -131,6 +131,7 @@ h2 {
     align-items: stretch;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 1cm;
 }
 
 .about-text {
@@ -169,12 +170,14 @@ h2 {
 }
 
 .about-image #terje {
+    width: 70%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 5px 5px black;
 }
 
 .about-image #graph {
+    width: 70%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 5px 5px black;
