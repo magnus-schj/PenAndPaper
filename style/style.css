@@ -93,10 +93,6 @@ h2 {
     margin-top: 10rem;
 }
 
-.hero h2 {
-    margin-left: 10%;
-}
-
 .hero a {
     margin: 3rem;
 }
@@ -237,6 +233,12 @@ footer img {
 @media screen and (max-width: 465px) {
     #logo {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .hero h2 {
+        margin-left: 10%;
     }
 }
 
