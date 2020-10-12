@@ -78,7 +78,7 @@ h2 {
 
 /* HERO */
 .hero {
-    background: url("/img/pexels-lumn-316466.jpg");
+    background: url("img/pexels-lumn-316466.jpg");
     background-position: center;
     background-size: cover;
     min-height: 90vh;
