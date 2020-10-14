@@ -191,6 +191,7 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     padding: 1rem;
+    color: #ffffff;
 }
 
 footer img {
